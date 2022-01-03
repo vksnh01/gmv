@@ -7,10 +7,10 @@ const Navbar =()=>{
     return(<>
     <nav className="navbar navbar-expand-lg text-light" style={{fontFamily:"roboto",backgroundColor:"black",color:"gray"}}>
   <div className="container-fluid justify-content-end">
-  {/* <a class="navbar-brand" href="/" style={{fontFamily: 'Island Moments',color:"white"}}><strong>G.M.V.</strong></a>
+  <a class="navbar-brand" href="/" style={{fontFamily: 'Island Moments',color:"white"}}><strong>G.M.V.</strong></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
-    </button> */}
+    </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent" style={{flexGrow:"0"}}>
       <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
         <li className="nav-item text-success" >
