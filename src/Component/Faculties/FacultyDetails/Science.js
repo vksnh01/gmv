@@ -6,11 +6,11 @@ const Science = ()=>{
    const [left,setLeft]=useState(DepartmentDetail);
 return(<>
     return(<>
-    <Container>
-   <Card>
- <Row className="text-center accordion accordion-flush" id="accordionFlushExample" >
+    <Container className="container">
+   <Card className="card">
+ <Row className="text-center accordion accordion-flush row" id="accordionFlushExample" >
       <Col md={3} className="mt-2 mb-2">
-         <Card>
+         <Card className="card">
             <h1>Department</h1>
             { left.map((elem)=>{
                     console.log(elem.id)

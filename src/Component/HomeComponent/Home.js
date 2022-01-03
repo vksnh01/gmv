@@ -8,7 +8,7 @@ const Home = () => {
 <Container>
 <Card className="d-flex mt-2 mb-2" style={{flexDirection:"row",backgroundColor:'beige'}}>
   <div className="text-center d-flex" style={{flexDirection:"row"}}>
-<img src="./IMG/gmvlogo1.png" class="img-thumbnail" alt="logo" style={{width:"7vw"}} />
+<img src="./IMG/gmvlogo1.png" class="img-thumbnail" alt="logo" style={{width:"7rem"}} />
 <div class="d-flex" style={{flexDirection:"column",alignItems:"flex-start"}}>
 <h1 className="text-primary heading" >GOCHAR MAHAVIDHYALYA</h1>
 <p className="text-primary heading">A Centre of Excellence NAAC Accredited grade “B”</p>
