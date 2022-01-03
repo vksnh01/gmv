@@ -1,0 +1,3 @@
+    align-items: center;
+    display: "flex",flexDirection: "column",alignContent: "center",justifyContent: "center"
+    width: 75rem;

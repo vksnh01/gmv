@@ -1,0 +1,34 @@
+import React from 'react';
+import { Container } from 'reactstrap';
+import BotonyD from "./BotonyD"
+
+const Botony=()=>{
+const [phyd,setPhyd]=React.useState(BotonyD);
+// console.log(bcsd);
+    return(<>
+   <Container>
+      <div className="d-flex text-center flex-wrap-wrap mt-3 mb-3" style={{marginLeft:"15px",display:"flex",flexWrap:"wrap"}}>
+         {
+            phyd.map((props)=>{
+               const {img,name, Designation,qulification,contact,email}=props;
+               return(<>
+               <div className="d-flex flex-wrap-wrap mb-3" style={{marginLeft:"30px"}}>
+               <div className="card " style={{width: "18rem"}}>
+                  <img src={img} className="card-img-top  " alt="..."/>
+                     <div className="card-body d-flex" style={{backgroundColor:"lightgray",flexDirection:"column",alignItems:"flex-start",justifyContent:"center"}}>
+                        <p className="card-text"><strong>Name:</strong> {name}</p>
+                        <p className="card-text"><strong>Qualification:</strong>{qulification}</p>
+                        <p className="card-text"><strong> Designation: </strong>{ Designation}</p>
+                        <p className="card-text"><strong>Contact No.</strong>{contact}</p>
+                        <p className="card-text"><strong>Email-ID</strong>{email}</p>
+                     </div>
+               </div>
+               </div>
+               </>)
+            })
+        }
+        </div>
+    </Container>
+            </>)
+        }
+        export default Botony;
